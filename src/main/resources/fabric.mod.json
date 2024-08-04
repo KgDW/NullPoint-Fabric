@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "nullpoint",
+  "version": "v2.1.4",
+  "name": "nullpoint",
+  "icon": "assets/minecraft/icon.png",
+  "description": "2b2t client for 1.20.4",
+  "authors": [
+    "0ay",
+    "eternity2333",
+    "trdyun"
+  ],
+  "accessWidener": "nullpoint.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.nullpoint.Nullpoint"
+    ]
+  },
+  "mixins": [
+    "nullpoint.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
